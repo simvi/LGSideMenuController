@@ -523,7 +523,8 @@ rightViewBackgroundImageFinalScale = _rightViewBackgroundImageFinalScale;
     [self leftViewsValidate];
     [self rightViewsValidate];
 
-    [self viewsHierarchyValidate];
+    // Removed: causing viewwillappear called on rotation
+    // [self viewsHierarchyValidate];
 
     [self rootViewsFramesValidate];
     [self leftViewsFramesValidate];
